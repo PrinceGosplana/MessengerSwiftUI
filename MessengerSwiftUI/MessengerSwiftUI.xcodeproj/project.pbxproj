@@ -16,6 +16,7 @@
 		8A338B8F2C1446AD00560222 /* MainButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A338B8E2C1446AC00560222 /* MainButtonModifier.swift */; };
 		8A338B912C1447DD00560222 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A338B902C1447DD00560222 /* RegistrationView.swift */; };
 		8A338B952C144DDC00560222 /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A338B942C144DDC00560222 /* InboxView.swift */; };
+		8A338B982C144F0A00560222 /* ActiveNowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A338B972C144F0A00560222 /* ActiveNowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		8A338B8E2C1446AC00560222 /* MainButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonModifier.swift; sourceTree = "<group>"; };
 		8A338B902C1447DD00560222 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		8A338B942C144DDC00560222 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		8A338B972C144F0A00560222 /* ActiveNowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveNowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		8A338B812C142DA000560222 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				8A338B962C144EFB00560222 /* Active */,
 				8A338B872C142DE300560222 /* Authenticatijon */,
 				8A338B922C144DC200560222 /* Inbox */,
 				8A338B862C142DDE00560222 /* Root */,
@@ -170,6 +173,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		8A338B962C144EFB00560222 /* Active */ = {
+			isa = PBXGroup;
+			children = (
+				8A338B972C144F0A00560222 /* ActiveNowView.swift */,
+			);
+			path = Active;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -241,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A338B8A2C142DFD00560222 /* LoginView.swift in Sources */,
+				8A338B982C144F0A00560222 /* ActiveNowView.swift in Sources */,
 				8A338B752C142C5300560222 /* ContentView.swift in Sources */,
 				8A338B8F2C1446AD00560222 /* MainButtonModifier.swift in Sources */,
 				8A338B952C144DDC00560222 /* InboxView.swift in Sources */,
