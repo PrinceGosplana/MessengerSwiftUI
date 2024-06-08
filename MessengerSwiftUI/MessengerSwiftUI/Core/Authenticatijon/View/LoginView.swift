@@ -17,7 +17,7 @@ struct LoginView: View {
             VStack {
 
                 Spacer()
-                
+
                 // logo image
                 Image(.facebookMessengerLogo)
                     .resizable()
@@ -29,8 +29,10 @@ struct LoginView: View {
 
                 VStack {
                     TextField("Enter your email", text: $email)
+                        .modifier(TextFieldModifier())
 
                     SecureField("Enter your password", text: $password)
+                        .modifier(TextFieldModifier())
                 }
                 // forgot password
 
