@@ -11,6 +11,7 @@
 		8A338B752C142C5300560222 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A338B742C142C5300560222 /* ContentView.swift */; };
 		8A338B772C142C5500560222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A338B762C142C5500560222 /* Assets.xcassets */; };
 		8A338B7A2C142C5500560222 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A338B792C142C5500560222 /* Preview Assets.xcassets */; };
+		8A338B8A2C142DFD00560222 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A338B892C142DFD00560222 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8A338B742C142C5300560222 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A338B762C142C5500560222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A338B792C142C5500560222 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A338B892C142DFD00560222 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +53,11 @@
 		8A338B712C142C5300560222 /* MessengerSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				8A338B722C142C5300560222 /* MessengerSwiftUIApp.swift */,
+				8A338B842C142DA400560222 /* Extensions */,
+				8A338B832C142DA200560222 /* Service */,
+				8A338B822C142DA100560222 /* Model */,
+				8A338B812C142DA000560222 /* Core */,
+				8A338B802C142D9E00560222 /* App */,
 				8A338B742C142C5300560222 /* ContentView.swift */,
 				8A338B762C142C5500560222 /* Assets.xcassets */,
 				8A338B782C142C5500560222 /* Preview Content */,
@@ -65,6 +71,67 @@
 				8A338B792C142C5500560222 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A338B802C142D9E00560222 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8A338B722C142C5300560222 /* MessengerSwiftUIApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8A338B812C142DA000560222 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8A338B872C142DE300560222 /* Authenticatijon */,
+				8A338B862C142DDE00560222 /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8A338B822C142DA100560222 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A338B832C142DA200560222 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8A338B842C142DA400560222 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8A338B862C142DDE00560222 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		8A338B872C142DE300560222 /* Authenticatijon */ = {
+			isa = PBXGroup;
+			children = (
+				8A338B882C142DEF00560222 /* View */,
+			);
+			path = Authenticatijon;
+			sourceTree = "<group>";
+		};
+		8A338B882C142DEF00560222 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A338B892C142DFD00560222 /* LoginView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A338B8A2C142DFD00560222 /* LoginView.swift in Sources */,
 				8A338B752C142C5300560222 /* ContentView.swift in Sources */,
 				8A338B732C142C5300560222 /* MessengerSwiftUIApp.swift in Sources */,
 			);
