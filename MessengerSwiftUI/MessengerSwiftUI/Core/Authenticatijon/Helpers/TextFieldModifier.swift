@@ -14,6 +14,5 @@ struct TextFieldModifier: ViewModifier {
             .padding(12)
             .background(Color(.systemGray6))
             .clipShape(RoundedRectangle(cornerRadius: 10))
-            .padding(.horizontal, 24)
     }
 }

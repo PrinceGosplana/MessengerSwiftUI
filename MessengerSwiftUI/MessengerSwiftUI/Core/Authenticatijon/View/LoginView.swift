@@ -27,12 +27,14 @@ struct LoginView: View {
 
                 // text image
 
-                VStack {
+                VStack(spacing: 12) {
                     TextField("Enter your email", text: $email)
                         .modifier(TextFieldModifier())
+                        .padding(.horizontal, 24)
 
                     SecureField("Enter your password", text: $password)
                         .modifier(TextFieldModifier())
+                        .padding(.horizontal, 24)
                 }
                 // forgot password
 
@@ -52,7 +54,10 @@ struct LoginView: View {
 
                 } label: {
                     Text("Login")
+                        .modifier(MainButtonModifier())
+                        .padding(.horizontal, 24)
                 }
+                .padding(.vertical)
 
                 // facebook login
                 HStack {
