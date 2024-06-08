@@ -30,12 +30,12 @@ struct LoginView: View {
                 VStack(spacing: 12) {
                     TextField("Enter your email", text: $email)
                         .modifier(TextFieldModifier())
-                        .padding(.horizontal, 24)
 
                     SecureField("Enter your password", text: $password)
                         .modifier(TextFieldModifier())
-                        .padding(.horizontal, 24)
                 }
+                .padding(.horizontal, 24)
+
                 // forgot password
 
                 Button {
