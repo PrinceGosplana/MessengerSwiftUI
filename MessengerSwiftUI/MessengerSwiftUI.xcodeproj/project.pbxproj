@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8A20ED402C157AA400D5915D /* InboxRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED3F2C157AA400D5915D /* InboxRow.swift */; };
 		8A20ED452C15865400D5915D /* NewMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED442C15865400D5915D /* NewMessageView.swift */; };
+		8A20ED4A2C158AAF00D5915D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED492C158AAF00D5915D /* ProfileView.swift */; };
+		8A20ED4C2C158BDD00D5915D /* SettingsOptionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED4B2C158BDD00D5915D /* SettingsOptionsViewModel.swift */; };
 		8A338B732C142C5300560222 /* MessengerSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A338B722C142C5300560222 /* MessengerSwiftUIApp.swift */; };
 		8A338B752C142C5300560222 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A338B742C142C5300560222 /* ContentView.swift */; };
 		8A338B772C142C5500560222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A338B762C142C5500560222 /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 /* Begin PBXFileReference section */
 		8A20ED3F2C157AA400D5915D /* InboxRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxRow.swift; sourceTree = "<group>"; };
 		8A20ED442C15865400D5915D /* NewMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageView.swift; sourceTree = "<group>"; };
+		8A20ED492C158AAF00D5915D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		8A20ED4B2C158BDD00D5915D /* SettingsOptionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOptionsViewModel.swift; sourceTree = "<group>"; };
 		8A338B6F2C142C5300560222 /* MessengerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessengerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A338B722C142C5300560222 /* MessengerSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerSwiftUIApp.swift; sourceTree = "<group>"; };
 		8A338B742C142C5300560222 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +72,31 @@
 		8A20ED432C15855900D5915D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8A20ED462C158A8F00D5915D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8A20ED482C158AA100D5915D /* ViewModel */,
+				8A20ED472C158A9B00D5915D /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8A20ED472C158A9B00D5915D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A20ED492C158AAF00D5915D /* ProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A20ED482C158AA100D5915D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8A20ED4B2C158BDD00D5915D /* SettingsOptionsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -126,6 +155,7 @@
 				8A338B872C142DE300560222 /* Authenticatijon */,
 				8A338B922C144DC200560222 /* Inbox */,
 				8A20ED412C15854E00D5915D /* NewMessageView */,
+				8A20ED462C158A8F00D5915D /* Profile */,
 				8A338B862C142DDE00560222 /* Root */,
 			);
 			path = Core;
@@ -283,6 +313,7 @@
 			files = (
 				8A338B8A2C142DFD00560222 /* LoginView.swift in Sources */,
 				8A338B982C144F0A00560222 /* ActiveNowView.swift in Sources */,
+				8A20ED4C2C158BDD00D5915D /* SettingsOptionsViewModel.swift in Sources */,
 				8A338B752C142C5300560222 /* ContentView.swift in Sources */,
 				8A20ED402C157AA400D5915D /* InboxRow.swift in Sources */,
 				8A338B8F2C1446AD00560222 /* MainButtonModifier.swift in Sources */,
@@ -290,6 +321,7 @@
 				8A338B912C1447DD00560222 /* RegistrationView.swift in Sources */,
 				8A338B8C2C14404500560222 /* TextFieldModifier.swift in Sources */,
 				8A338B732C142C5300560222 /* MessengerSwiftUIApp.swift in Sources */,
+				8A20ED4A2C158AAF00D5915D /* ProfileView.swift in Sources */,
 				8A20ED452C15865400D5915D /* NewMessageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
