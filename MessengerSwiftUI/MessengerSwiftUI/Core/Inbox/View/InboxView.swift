@@ -10,8 +10,18 @@ import SwiftUI
 struct InboxView: View {
     var body: some View {
         NavigationStack {
-            ScrollView {
-                ActiveNowView()
+            GeometryReader { proxy in
+                ScrollView {
+                    ActiveNowView()
+
+                    List {
+                        ForEach( 0 ... 10, id: \.self) { message in
+                            InboxRow()
+                        }
+                    }
+                    .listStyle(PlainListStyle())
+                    .frame(height: proxy.size.height - 100)
+                }
             }
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
