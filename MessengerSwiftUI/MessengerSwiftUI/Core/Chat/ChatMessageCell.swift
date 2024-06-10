@@ -23,7 +23,7 @@ struct ChatMessageCell: View {
                         .padding(12)
                         .background(Color(.systemBlue))
                         .foregroundStyle(.white)
-                        .clipShape(Capsule())
+                        .clipShape(ChatBubble(isFromCurrentUser: isFromCurrentUser))
                         .frame(maxWidth: screenWidth / 1.5, alignment: .trailing)
                 } else {
                     HStack(alignment: .bottom, spacing: 8) {
@@ -34,7 +34,7 @@ struct ChatMessageCell: View {
                             .padding(12)
                             .background(Color(.systemGray6))
                             .foregroundStyle(.black)
-                            .clipShape(Capsule())
+                            .clipShape(ChatBubble(isFromCurrentUser: isFromCurrentUser))
                             .frame(maxWidth: screenWidth / 1.75, alignment: .leading)
 
                         Spacer()
