@@ -17,6 +17,9 @@
 		8A20ED672C16D31E00D5915D /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED662C16D31E00D5915D /* ChatView.swift */; };
 		8A20ED692C16DEF700D5915D /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED682C16DEF700D5915D /* ChatMessageCell.swift */; };
 		8A20ED6D2C16E37A00D5915D /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED6C2C16E37A00D5915D /* ChatBubble.swift */; };
+		8A20ED732C16EA7100D5915D /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED722C16EA7100D5915D /* AuthService.swift */; };
+		8A20ED752C16EAE700D5915D /* AuthServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED742C16EAE700D5915D /* AuthServiceProtocol.swift */; };
+		8A20ED772C171DAF00D5915D /* MockAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED762C171DAF00D5915D /* MockAuthService.swift */; };
 		8A338B732C142C5300560222 /* MessengerSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A338B722C142C5300560222 /* MessengerSwiftUIApp.swift */; };
 		8A338B752C142C5300560222 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A338B742C142C5300560222 /* ContentView.swift */; };
 		8A338B772C142C5500560222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A338B762C142C5500560222 /* Assets.xcassets */; };
@@ -40,6 +43,9 @@
 		8A20ED662C16D31E00D5915D /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		8A20ED682C16DEF700D5915D /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
 		8A20ED6C2C16E37A00D5915D /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
+		8A20ED722C16EA7100D5915D /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		8A20ED742C16EAE700D5915D /* AuthServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServiceProtocol.swift; sourceTree = "<group>"; };
+		8A20ED762C171DAF00D5915D /* MockAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAuthService.swift; sourceTree = "<group>"; };
 		8A338B6F2C142C5300560222 /* MessengerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessengerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A338B722C142C5300560222 /* MessengerSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerSwiftUIApp.swift; sourceTree = "<group>"; };
 		8A338B742C142C5300560222 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -130,6 +136,23 @@
 				8A20ED662C16D31E00D5915D /* ChatView.swift */,
 			);
 			path = Chat;
+			sourceTree = "<group>";
+		};
+		8A20ED6E2C16E93300D5915D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8A20ED722C16EA7100D5915D /* AuthService.swift */,
+				8A20ED742C16EAE700D5915D /* AuthServiceProtocol.swift */,
+				8A20ED762C171DAF00D5915D /* MockAuthService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8A20ED6F2C16E94400D5915D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		8A338B662C142C5300560222 = {
@@ -226,6 +249,8 @@
 		8A338B872C142DE300560222 /* Authenticatijon */ = {
 			isa = PBXGroup;
 			children = (
+				8A20ED6F2C16E94400D5915D /* ViewModel */,
+				8A20ED6E2C16E93300D5915D /* Service */,
 				8A338B8D2C14469500560222 /* Helpers */,
 				8A338B882C142DEF00560222 /* View */,
 			);
@@ -351,12 +376,15 @@
 				8A20ED4C2C158BDD00D5915D /* SettingsOptionsViewModel.swift in Sources */,
 				8A338B752C142C5300560222 /* ContentView.swift in Sources */,
 				8A20ED672C16D31E00D5915D /* ChatView.swift in Sources */,
+				8A20ED732C16EA7100D5915D /* AuthService.swift in Sources */,
 				8A20ED642C16CF3B00D5915D /* CircularProfileImageView.swift in Sources */,
 				8A20ED6D2C16E37A00D5915D /* ChatBubble.swift in Sources */,
 				8A20ED402C157AA400D5915D /* InboxRow.swift in Sources */,
 				8A338B8F2C1446AD00560222 /* MainButtonModifier.swift in Sources */,
 				8A20ED612C16C7F700D5915D /* User.swift in Sources */,
 				8A338B952C144DDC00560222 /* InboxView.swift in Sources */,
+				8A20ED752C16EAE700D5915D /* AuthServiceProtocol.swift in Sources */,
+				8A20ED772C171DAF00D5915D /* MockAuthService.swift in Sources */,
 				8A338B912C1447DD00560222 /* RegistrationView.swift in Sources */,
 				8A338B8C2C14404500560222 /* TextFieldModifier.swift in Sources */,
 				8A338B732C142C5300560222 /* MessengerSwiftUIApp.swift in Sources */,
