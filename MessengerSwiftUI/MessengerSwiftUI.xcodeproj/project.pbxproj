@@ -12,6 +12,7 @@
 		8A20ED4A2C158AAF00D5915D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED492C158AAF00D5915D /* ProfileView.swift */; };
 		8A20ED4C2C158BDD00D5915D /* SettingsOptionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED4B2C158BDD00D5915D /* SettingsOptionsViewModel.swift */; };
 		8A20ED4E2C159EF600D5915D /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED4D2C159EF600D5915D /* ProfileViewModel.swift */; };
+		8A20ED612C16C7F700D5915D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED602C16C7F700D5915D /* User.swift */; };
 		8A338B732C142C5300560222 /* MessengerSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A338B722C142C5300560222 /* MessengerSwiftUIApp.swift */; };
 		8A338B752C142C5300560222 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A338B742C142C5300560222 /* ContentView.swift */; };
 		8A338B772C142C5500560222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A338B762C142C5500560222 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		8A20ED492C158AAF00D5915D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		8A20ED4B2C158BDD00D5915D /* SettingsOptionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOptionsViewModel.swift; sourceTree = "<group>"; };
 		8A20ED4D2C159EF600D5915D /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		8A20ED602C16C7F700D5915D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8A338B6F2C142C5300560222 /* MessengerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessengerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A338B722C142C5300560222 /* MessengerSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerSwiftUIApp.swift; sourceTree = "<group>"; };
 		8A338B742C142C5300560222 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 		8A338B822C142DA100560222 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8A20ED602C16C7F700D5915D /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				8A338B752C142C5300560222 /* ContentView.swift in Sources */,
 				8A20ED402C157AA400D5915D /* InboxRow.swift in Sources */,
 				8A338B8F2C1446AD00560222 /* MainButtonModifier.swift in Sources */,
+				8A20ED612C16C7F700D5915D /* User.swift in Sources */,
 				8A338B952C144DDC00560222 /* InboxView.swift in Sources */,
 				8A338B912C1447DD00560222 /* RegistrationView.swift in Sources */,
 				8A338B8C2C14404500560222 /* TextFieldModifier.swift in Sources */,
