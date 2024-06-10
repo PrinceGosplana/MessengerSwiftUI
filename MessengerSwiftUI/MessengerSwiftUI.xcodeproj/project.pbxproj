@@ -20,6 +20,7 @@
 		8A20ED732C16EA7100D5915D /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED722C16EA7100D5915D /* AuthService.swift */; };
 		8A20ED752C16EAE700D5915D /* AuthServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED742C16EAE700D5915D /* AuthServiceProtocol.swift */; };
 		8A20ED772C171DAF00D5915D /* MockAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED762C171DAF00D5915D /* MockAuthService.swift */; };
+		8A20ED792C171E0D00D5915D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED782C171E0D00D5915D /* LoginViewModel.swift */; };
 		8A338B732C142C5300560222 /* MessengerSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A338B722C142C5300560222 /* MessengerSwiftUIApp.swift */; };
 		8A338B752C142C5300560222 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A338B742C142C5300560222 /* ContentView.swift */; };
 		8A338B772C142C5500560222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A338B762C142C5500560222 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		8A20ED722C16EA7100D5915D /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		8A20ED742C16EAE700D5915D /* AuthServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServiceProtocol.swift; sourceTree = "<group>"; };
 		8A20ED762C171DAF00D5915D /* MockAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAuthService.swift; sourceTree = "<group>"; };
+		8A20ED782C171E0D00D5915D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		8A338B6F2C142C5300560222 /* MessengerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessengerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A338B722C142C5300560222 /* MessengerSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerSwiftUIApp.swift; sourceTree = "<group>"; };
 		8A338B742C142C5300560222 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 		8A20ED6F2C16E94400D5915D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				8A20ED782C171E0D00D5915D /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 			files = (
 				8A338B8A2C142DFD00560222 /* LoginView.swift in Sources */,
 				8A338B982C144F0A00560222 /* ActiveNowView.swift in Sources */,
+				8A20ED792C171E0D00D5915D /* LoginViewModel.swift in Sources */,
 				8A20ED692C16DEF700D5915D /* ChatMessageCell.swift in Sources */,
 				8A20ED4C2C158BDD00D5915D /* SettingsOptionsViewModel.swift in Sources */,
 				8A338B752C142C5300560222 /* ContentView.swift in Sources */,
