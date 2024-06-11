@@ -31,6 +31,7 @@
 		8A338B912C1447DD00560222 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A338B902C1447DD00560222 /* RegistrationView.swift */; };
 		8A338B952C144DDC00560222 /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A338B942C144DDC00560222 /* InboxView.swift */; };
 		8A338B982C144F0A00560222 /* ActiveNowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A338B972C144F0A00560222 /* ActiveNowView.swift */; };
+		8AF41A442C18279D00801F63 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF41A432C18279D00801F63 /* RegisterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		8A338B902C1447DD00560222 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		8A338B942C144DDC00560222 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
 		8A338B972C144F0A00560222 /* ActiveNowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveNowView.swift; sourceTree = "<group>"; };
+		8AF41A432C18279D00801F63 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				8A20ED782C171E0D00D5915D /* LoginViewModel.swift */,
+				8AF41A432C18279D00801F63 /* RegisterViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -252,10 +255,10 @@
 		8A338B872C142DE300560222 /* Authenticatijon */ = {
 			isa = PBXGroup;
 			children = (
-				8A20ED6F2C16E94400D5915D /* ViewModel */,
-				8A20ED6E2C16E93300D5915D /* Service */,
 				8A338B8D2C14469500560222 /* Helpers */,
+				8A20ED6E2C16E93300D5915D /* Service */,
 				8A338B882C142DEF00560222 /* View */,
+				8A20ED6F2C16E94400D5915D /* ViewModel */,
 			);
 			path = Authenticatijon;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 				8A20ED4E2C159EF600D5915D /* ProfileViewModel.swift in Sources */,
 				8A20ED4A2C158AAF00D5915D /* ProfileView.swift in Sources */,
 				8A20ED452C15865400D5915D /* NewMessageView.swift in Sources */,
+				8AF41A442C18279D00801F63 /* RegisterViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
