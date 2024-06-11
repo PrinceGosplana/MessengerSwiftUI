@@ -13,6 +13,10 @@ final class AuthService: AuthServiceProtocol {
     }
 
     func createUser(withEmail email: String, password: String, fullName: String) async throws {
-
+        do {
+            print("Create user \(fullName) with email \(email)")
+        } catch {
+            print("Failed to create user with error: \(error.localizedDescription)")
+        }
     }
 }
